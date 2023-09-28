@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a671ad54232930f43a5f840d0a75e849, type: 3}
+  m_Name: Item_DataBase
+  m_EditorClassIdentifier: 
+  itemDatas:
+  - Name: "\u6905\u5B50"
+    Image: {fileID: 21300000, guid: b8499d144ae32864d9421ed2df593ef1, type: 3}
+    Prefab: {fileID: 9204575593924665470, guid: 11d3f9895a7287b42960c547fa50f66c, type: 3}
+    Mass: 7.5
+    Score: 100
+    scale: 0.5
+  - Name: "\u51B7\u8535\u5EAB"
+    Image: {fileID: 21300000, guid: c6fd4681aa7b5f041b6671e01b9881c2, type: 3}
+    Prefab: {fileID: 3394873756443844013, guid: 461e3a5599937a94bb9b76d3823d8f8f, type: 3}
+    Mass: 9
+    Score: 300
+    scale: 0.6
+  - Name: "\u6642\u8A08"
+    Image: {fileID: 21300000, guid: 42200671f8f80834f848ae2bfdadda48, type: 3}
+    Prefab: {fileID: 3126245108975212786, guid: b9b3585e417ff234a9a595727433c3f1, type: 3}
+    Mass: 4
+    Score: 80
+    scale: 0.2
+  - Name: "\u6D17\u6FEF\u6A5F"
+    Image: {fileID: 21300000, guid: dee15cef447f5bb46bdb71b9c36a3537, type: 3}
+    Prefab: {fileID: 210911570570685638, guid: 7e2e6cca889881e46a7c460ba932b58d, type: 3}
+    Mass: 7
+    Score: 500
+    scale: 0.45
+  - Name: "\u5098"
+    Image: {fileID: 21300000, guid: 7ae9c7681667e5042a6d95941e2f35a1, type: 3}
+    Prefab: {fileID: 4763604047959627508, guid: 090adc045242add4c9eef7ecb7da3392, type: 3}
+    Mass: 3
+    Score: 400
+    scale: 0.4
+  - Name: "\u30D9\u30C3\u30C9"
+    Image: {fileID: 21300000, guid: cf784ff73db189f4e83ae6236b5c9f59, type: 3}
+    Prefab: {fileID: 473653298112707983, guid: baedbf417158d684f93fee477a5df43b, type: 3}
+    Mass: 8
+    Score: 200
+    scale: 0.45
+  - Name: "\u30C0\u30D6\u30EB\u30D9\u30C3\u30C9"
+    Image: {fileID: 21300000, guid: 809bffecd6673d44f9ceb0d051cc5f35, type: 3}
+    Prefab: {fileID: 4205020900653191603, guid: 3909840aacdfb974eaa339dcf94c770a, type: 3}
+    Mass: 11
+    Score: 400
+    scale: 0.7
+  - Name: "\u304A\u5B88\u308A"
+    Image: {fileID: 21300000, guid: be997f0642d2add4dbbab7ffedce0064, type: 3}
+    Prefab: {fileID: 4050834164816279066, guid: dee4f336b7617224281862c373661c45, type: 3}
+    Mass: 2
+    Score: 1000
+    scale: 0.3
+  - Name: "\u5263"
+    Image: {fileID: 21300000, guid: b229de0d66e5b8348be0601e24c1870b, type: 3}
+    Prefab: {fileID: 6795881966453357604, guid: cb32ae3a96fabfa4f884be8a5532a427, type: 3}
+    Mass: 7
+    Score: 1200
+    scale: 0.6
+  - Name: "\u30D6\u30FC\u30C4"
+    Image: {fileID: 21300000, guid: d3255dc855d39244994ffb8967b1912f, type: 3}
+    Prefab: {fileID: 3854003424033408940, guid: bdc0b72469d8ec6418042385fbcd628c, type: 3}
+    Mass: 7
+    Score: 100
+    scale: 0.2
+  - Name: "\u30DC\u30FC\u30EA\u30F3\u30B0"
+    Image: {fileID: 21300000, guid: b1aee8dea2588bd4f9cd49086a2f4e1c, type: 3}
+    Prefab: {fileID: 3679300603908660100, guid: 506db1b6e88b4f54c860360a3ea99e59, type: 3}
+    Mass: 9
+    Score: 120
+    scale: 0.3
+  - Name: "\u30D0\u30B9\u30B1\u30C3\u30C8\u30DC\u30FC\u30EB"
+    Image: {fileID: 21300000, guid: 934cf0ca63953b14d9daaf47836fa081, type: 3}
+    Prefab: {fileID: 4437542761894817821, guid: a7250b3596b1f0d458e32c1bc4cb7bea, type: 3}
+    Mass: 7
+    Score: 200
+    scale: 0.3
+  - Name: "\u968E\u6BB5"
+    Image: {fileID: 21300000, guid: daafb6e3ec102af45a04df99846e644d, type: 3}
+    Prefab: {fileID: 517578477110949303, guid: d38bd91799ed538418e9e1d81550ffd4, type: 3}
+    Mass: 12
+    Score: 500
+    scale: 0.7
+  - Name: "\u3054\u98EF"
+    Image: {fileID: 21300000, guid: 35c18524d96a1434a8db879a8af2d7db, type: 3}
+    Prefab: {fileID: 7387387581201648377, guid: 883d2d32524677c49bd227066eb21fa2, type: 3}
+    Mass: 7
+    Score: 50
+    scale: 0.3
+  - Name: "\u7A93"
+    Image: {fileID: 21300000, guid: b7972cb3b102b7142bbbb44f7da77354, type: 3}
+    Prefab: {fileID: 1113213899121866966, guid: d76affcfb9021b847a3892d72a1f211c, type: 3}
+    Mass: 7.5
+    Score: 600
+    scale: 0.5
